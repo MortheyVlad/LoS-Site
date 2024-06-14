@@ -1,0 +1,293 @@
+html {
+    font-size: 18px;
+    margin: 0;
+    color: #fff;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: black;
+    background-size: 120% 120%;
+    max-width: 1120px;
+    font-family: /*"DRAGON HUNTER,"*/ "Beaufort for LOL Bold", "SpiegelSans Trial", sans-serif;
+    text-transform: uppercase;
+}
+
+#cabecalho {
+    background-color: black;
+    color: #fff;
+    justify-content: space-between;
+    padding: 17px;
+    display: flex;
+    align-items: center;
+    font-family: "Beaufort for LOL Bold";
+    text-transform: uppercase;
+    margin-top: 0;
+    z-index: 2;
+}
+
+.logo1, .logo2 {
+    margin: 0;
+    color: #fff;
+}
+
+.logo1 {
+    display: flex;
+    align-items: center;
+}
+
+img.logo1{
+    width: 85px;
+    height: 85px;
+    margin-left: 20px;
+}
+
+.logo2 {
+    font-size: 24px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+}
+
+.menu li {
+    margin-left: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    padding: 5px 5px;
+    transition: background-color 0.3s ease;
+}
+
+.menu a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}
+
+.titulo-raca {
+    text-align: center;
+    margin-left: 150px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-family: "Beaufort for LOL Bold";
+    font-size: 50px;
+    font-weight: bold;
+    color: #fff;
+    padding-top: 20vh;
+}
+
+#raca {
+    min-height: calc(100vh - 125px);
+    font-family: "SpiegelSans Trial", sans-serif;
+    gap: 50px;
+}
+
+#container-racas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    margin-left: 120px;
+    margin-right: -40px;
+}
+
+.raca-item {
+    position: relative;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.raca-item img {
+    display: block;
+    width: 200px; 
+    height: 300px; 
+    transition: transform 0.3s ease;
+}
+
+.raca-item:hover img {
+    transform: scale(1.3);
+    width: 250px;
+    height: 350px;
+}
+
+.informacoes-raca {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5); 
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    font-family: "SpiegelSans Trial", 
+}
+
+.informacoes-raca h1 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.titulo-npc {
+    text-align: center;
+    margin-left: -70px;
+    margin-bottom: 50px;
+    margin-top: 10px;
+    font-family: "Beaufort for LOL Bold";
+    font-size: 45px;
+    font-weight: bold;
+    color: #fff;
+    padding-top: 20vh;
+}
+
+#container-npc {
+    margin: 20px;
+    align-items: center;
+    margin-left: 150px;
+    min-height: calc(100vh - 125px);
+}
+
+.carousel-item img {
+    display: block;
+    margin-left: 250px;
+    margin-right: auto;
+    width: 500px;
+    height: 500px;
+}
+
+.npc-info {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    text-align: center;
+    padding: 0px;
+    margin-left: -42px;
+    font-size: 12px;
+}
+
+.npc-info h1, .npc-info h2 {
+    margin: 5px 0;
+}
+
+#a-prev-npc {
+    margin-top: 20px;
+    padding-right: 20px;
+}
+
+#a-next-npc {
+    margin-top: 45px;
+    padding-left: 5px;
+}
+
+#container-regiao {
+    margin: 20px;
+    align-items: center;
+    margin-left: 150px;
+    min-height: calc(100vh);
+}
+
+.titulo-regiao {
+    text-align: center;
+    margin-left: -80px;
+    margin-bottom: 25px;
+    margin-top: 100px;
+    font-family: "Beaufort for LOL Bold";
+    font-size: 45px;
+    font-weight: bold;
+    color: #fff;
+    padding-top: 20vh;
+}
+
+#carousel-regiao img {
+    display: block;
+    margin-left: 160px;
+    margin-right: auto;
+    width: 700px;
+    height: 550px;
+}
+
+.regiao-info {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    text-align: center;
+    padding: 0px;
+    margin-left: -20px;
+    font-size: 12px;
+}
+
+.regiao-info h1 {
+    margin: 5px 0;
+}
+
+#a-prev {
+    margin-top: 300px;
+    padding-right: 20px;
+}
+
+#a-next {
+    margin-top: 300px;
+    padding-left: 20px;
+}
+
+.rodape {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    background-color: #333;
+    color: #fff;
+    width: 120%;
+    margin-top: 35vh;
+}
+
+.rodape-esquerdo {
+    flex: 1;
+    text-align: left;
+    font-size: 15px;
+}
+
+.rodape-centro {
+    flex: 1;
+    text-align: center;
+}
+
+.rodape-centro .logo-los img {
+    max-height: auto;
+    max-width: 80px;
+}
+
+.rodape-direito {
+    flex: 1;
+    text-align: right;
+}
+
+.rodape-direito .redes-sociais {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-evenly;
+}
+
+.rodape-direito .redes-sociais li {
+    margin-left: 10px;
+}
+
+.rodape-direito .redes-sociais li a {
+    color: #fff;
+    font-size: 32px;
+    text-decoration: none;
+}
